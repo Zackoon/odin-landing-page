@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="home.css" >
 </head>
 <body>
-    <header class="banner">  
+    <header>  
         <nav> <!--Have as flexbox and use auto-->
             <h1><a class="logo">Header Logo</a></h1>
+            
             <ul>
                 <li><a href="">header link one</a></li>
                 <li><a href="">header link two</a></li>
@@ -18,48 +19,64 @@
             </ul>
         </nav>
 
-        <div class="banner"> <!--Outer Flex-->
+        <div class="banner-content"> <!--Outer Flex-->
             <div class="banner-text">
                 <h1>This website is awesome</h1>
                 <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
                 <a href="https://google.com"><button href="google.com">Sign up</button></a>
             </div>
-            <img href="">
+            <div class="image">
+                <img src="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg">
+            </div>
         </div>
     </header>
 
-    <aside> 
+    <content class="random"> 
         <h2 class="gallery-header">Some random information.</h2>
         <div class="image-gallery"> <!--Flexbox-->
             <figure>
-                <img>
-                <figcaption></figcaption>
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/062e5e10-0d29-4a44-941a-de4fad7ab823/d6o5v21-19e80cca-a4a5-4847-9c08-b44bbab48bcf.png/v1/fill/w_1024,h_895,strp/vaporeon_by_captain_connor_d6o5v21-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODk1IiwicGF0aCI6IlwvZlwvMDYyZTVlMTAtMGQyOS00YTQ0LTk0MWEtZGU0ZmFkN2FiODIzXC9kNm81djIxLTE5ZTgwY2NhLWE0YTUtNDg0Ny05YzA4LWI0NGJiYWI0OGJjZi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.HMdWvHk80J86PbHUweJSfNTXp7h8keQBCtyDmqAtAg0">
+                <figcaption>Vaporeon</figcaption>
             </figure>
 
             <figure>
-                <img>
-                <figcaption></figcaption>
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/062e5e10-0d29-4a44-941a-de4fad7ab823/d6o5v21-19e80cca-a4a5-4847-9c08-b44bbab48bcf.png/v1/fill/w_1024,h_895,strp/vaporeon_by_captain_connor_d6o5v21-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODk1IiwicGF0aCI6IlwvZlwvMDYyZTVlMTAtMGQyOS00YTQ0LTk0MWEtZGU0ZmFkN2FiODIzXC9kNm81djIxLTE5ZTgwY2NhLWE0YTUtNDg0Ny05YzA4LWI0NGJiYWI0OGJjZi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.HMdWvHk80J86PbHUweJSfNTXp7h8keQBCtyDmqAtAg0">
+                <figcaption>Vaporeon</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/062e5e10-0d29-4a44-941a-de4fad7ab823/d6o5v21-19e80cca-a4a5-4847-9c08-b44bbab48bcf.png/v1/fill/w_1024,h_895,strp/vaporeon_by_captain_connor_d6o5v21-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODk1IiwicGF0aCI6IlwvZlwvMDYyZTVlMTAtMGQyOS00YTQ0LTk0MWEtZGU0ZmFkN2FiODIzXC9kNm81djIxLTE5ZTgwY2NhLWE0YTUtNDg0Ny05YzA4LWI0NGJiYWI0OGJjZi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.HMdWvHk80J86PbHUweJSfNTXp7h8keQBCtyDmqAtAg0">
+                <figcaption>Vaporeon</figcaption>
             </figure>
 
             <figure>
-                <img>
-                <figcaption></figcaption>
-            </figure>
-
-            <figure>
-                <img>
-                <figcaption></figcaption>
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/062e5e10-0d29-4a44-941a-de4fad7ab823/d6o5v21-19e80cca-a4a5-4847-9c08-b44bbab48bcf.png/v1/fill/w_1024,h_895,strp/vaporeon_by_captain_connor_d6o5v21-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODk1IiwicGF0aCI6IlwvZlwvMDYyZTVlMTAtMGQyOS00YTQ0LTk0MWEtZGU0ZmFkN2FiODIzXC9kNm81djIxLTE5ZTgwY2NhLWE0YTUtNDg0Ny05YzA4LWI0NGJiYWI0OGJjZi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.HMdWvHk80J86PbHUweJSfNTXp7h8keQBCtyDmqAtAg0">
+                <figcaption>Vaporeon</figcaption>
             </figure>
         </div>
-    </aside>
+    </content>
 
-    <section class="quote">
+    <content class="quote">
         <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who Knows? All I know is it looks nice.</p>
         <p class="author">- Thor God of Thunder</p>
-    </section>
+    </content>
+
+    <content class="call-to-action">
+        <div class="blue-box">
+            <div class="blue-box-text">
+                <h1>Call to action! It's time!</h1>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            
+            <div class="button">
+                <a href="https://google.com"><button href="google.com">Sign up</button></a>
+            </div>
+        </div>
+        
+    </content>
 
     <footer>
-        <p>Copyright <span>c</span> The Odin Project 2023</p>
+        <p>Copyright <span>©</span> The Odin Project 2023</p>
     </footer>
         
 </body>

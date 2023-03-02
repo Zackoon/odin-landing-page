@@ -6,10 +6,11 @@ body {
     border-width: 3px;
     border-color: blue;
 }
+
 header {
     display: flex;
     flex-direction: column;
-    margin: 0 5%;
+    padding: 0 5%;
 
     border-style: solid;
     border-width: 2px;
@@ -18,7 +19,7 @@ header {
 
 
 
-nav {
+header > nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,7 +29,7 @@ nav {
     border-color: red;
 }
 
-nav > h1 {
+header nav h1 {
     display: flex;
     flex: 1 1 0;
 
@@ -37,7 +38,7 @@ nav > h1 {
     border-color: red;
 }
 
-nav > ul {
+header nav ul {
     display: flex;
     flex: 1 1 0;
     list-style: none;
@@ -46,6 +47,136 @@ nav > ul {
     border-width: 2px;
     border-color: red;
     gap: 5%;
+}
+
+.banner-content {
+    display: flex;
+    flex: 1 1 0;
+    align-items: center; 
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+.random {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    padding: 5%;
+    align-items: center;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 5% 15%;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+.image-gallery {
+    display: flex;
+    flex: 1 1 0;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+}
+
+/* Note how only direct children become flex items
+.image-gallery figure {
+    display: flex;
+    justify-content: flex-end;
+}
+*/
+
+.image-gallery figure img {
+    width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+.image-gallery figure figcaption {
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+
+}
+
+.image img {
+    width: 75%
+}
+
+.call-to-action {
+    display: flex;
+    flex: 1 1 0;
+    padding: 5%;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+}
+
+.blue-box {
+    display: flex;
+    flex: 1 1 0;
+    margins: 5%;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+}
+
+.blue-box-text {
+    display: flex;
+    flex: 2 1 0;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+.button {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center; 
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+footer  {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
 }
 
 
