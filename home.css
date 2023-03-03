@@ -5,10 +5,6 @@ body {
     margin: 0 auto;
 
     font-family: 'Hero New', sans-serif;
-
-    border-style: solid;
-    border-width: 3px;
-    border-color: blue;
 }
 
 header {
@@ -17,9 +13,6 @@ header {
     padding: 0 5%;
 
     background-color: #1F2937;
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
 }
 
 
@@ -28,30 +21,18 @@ header > nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
 }
 
 .header-logo-text {
     display: flex;
     flex: 1 1 0;
     color: #F9FAF8;
-
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
 }
 
 .header-links {
     display: flex;
     flex: 1 1 0;
     list-style: none;
-
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
     gap: 5%;
 }
 
@@ -66,19 +47,13 @@ header > nav {
     flex: 1 1 0;
     align-items: center; 
 
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
+    padding: 5%;
 }
 
 .banner-text {
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
-
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
 }
 
 .banner-text h1 {
@@ -93,10 +68,6 @@ header > nav {
     flex-direction: column;
     padding: 5%;
     align-items: center;
-
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
 }
 
 .quote-section {
@@ -104,10 +75,6 @@ header > nav {
     background-color: #E5E7EB;
     padding: 5% 15%;
     flex-direction: column;
-
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
 }
 
 .quote-section .quote-text {
@@ -127,10 +94,6 @@ header > nav {
 .image-gallery {
     display: flex;
     flex: 1 1 0;
-
-    border-style: solid;
-    border-width: 2px;
-    border-color: green;
 }
 
 content h2 {
@@ -164,11 +127,6 @@ content h2 {
     display: flex;
     flex: 1 1 0;
     justify-content: center;
-
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
-
 }
 
 .image img {
@@ -179,10 +137,6 @@ content h2 {
     display: flex;
     flex: 1 1 0;
     padding: 5%;
-
-    border-style: solid;
-    border-width: 2px;
-    border-color: green;
 }
 
 .blue-box {
@@ -203,9 +157,6 @@ content h2 {
 
     font-size: 18px;
     color: #F9FAF8;
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
 }
 
 .button {
@@ -213,10 +164,6 @@ content h2 {
     flex: 1 1 0;
 
     align-items: center; 
-
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
 }
 
 footer  {
