@@ -1,7 +1,11 @@
+@import url('https://fonts.cdnfonts.com/css/hero');
 
 body {
     max-width: 1400px;
     margin: 0 auto;
+
+    font-family: 'Hero New', sans-serif;
+
     border-style: solid;
     border-width: 3px;
     border-color: blue;
@@ -12,6 +16,7 @@ header {
     flex-direction: column;
     padding: 0 5%;
 
+    background-color: #1F2937;
     border-style: solid;
     border-width: 2px;
     border-color: red;
@@ -29,16 +34,17 @@ header > nav {
     border-color: red;
 }
 
-header nav h1 {
+.header-logo-text {
     display: flex;
     flex: 1 1 0;
+    color: #F9FAF8;
 
     border-style: solid;
     border-width: 2px;
     border-color: red;
 }
 
-header nav ul {
+.header-links {
     display: flex;
     flex: 1 1 0;
     list-style: none;
@@ -47,6 +53,12 @@ header nav ul {
     border-width: 2px;
     border-color: red;
     gap: 5%;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
 .banner-content {
@@ -69,6 +81,12 @@ header nav ul {
     border-color: red;
 }
 
+.banner-text h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
 .random {
     display: flex;
     flex: 1 1 0;
@@ -81,14 +99,29 @@ header nav ul {
     border-color: red;
 }
 
-.quote {
+.quote-section {
     display: flex;
     background-color: #E5E7EB;
     padding: 5% 15%;
+    flex-direction: column;
 
     border-style: solid;
     border-width: 2px;
     border-color: red;
+}
+
+.quote-section .quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-section .author {
+    margin-left: auto;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 800;
 }
 
 .image-gallery {
@@ -100,6 +133,12 @@ header nav ul {
     border-color: green;
 }
 
+content h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
 /* Note how only direct children become flex items
 .image-gallery figure {
     display: flex;
@@ -109,13 +148,16 @@ header nav ul {
 
 .image-gallery figure img {
     width: 100%;
+    border-radius: 5%;
+    border-color: #3882f6;
     border-style: solid;
-    border-width: 2px;
-    border-color: red;
+    border-width: 4px;
 }
 
 .image-gallery figure figcaption {
     text-align: center;
+    color: #67686a;
+
 }
 
 .image {
@@ -130,7 +172,7 @@ header nav ul {
 }
 
 .image img {
-    width: 75%
+    width: 75%;
 }
 
 .call-to-action {
@@ -146,17 +188,21 @@ header nav ul {
 .blue-box {
     display: flex;
     flex: 1 1 0;
-    margins: 5%;
-    
-    border-style: solid;
-    border-width: 2px;
-    border-color: blue;
+    margin: 5%;
+    padding: 1%;
+    background-color: #3882F6;
+
+    border-radius: 10px / 5px;
 }
 
 .blue-box-text {
     display: flex;
-    flex: 2 1 0;
+    flex: 1.5 1 0;
     flex-direction: column;
+    justify-content: center;
+
+    font-size: 18px;
+    color: #F9FAF8;
     border-style: solid;
     border-width: 2px;
     border-color: red;
@@ -165,7 +211,7 @@ header nav ul {
 .button {
     display: flex;
     flex: 1 1 0;
-    justify-content: center;
+
     align-items: center; 
 
     border-style: solid;
@@ -177,7 +223,10 @@ footer  {
     display: flex;
     flex: 1 1 0;
     justify-content: center;
+
+    background-color: #1F2937;
 }
+
 
 
 /*
